@@ -1,0 +1,41 @@
+# Plans, Spécifications & Documentation d'Architecture
+0*.md
+*plan*.md
+01_routeur_llm_nextjs.md
+docs/
+
+# Dépendances
+node_modules/
+.pnpm-store/
+
+# Next.js build
+.next/
+out/
+dist/
+build/
+
+# Environnement & Secrets
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tests & Couverture
+coverage/
+test-results/
+playwright-report/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

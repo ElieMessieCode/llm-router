@@ -253,7 +253,7 @@ export default function ArenaPage() {
               </div>
 
               <div style={{ flex: 1, whiteSpace: 'pre-wrap', fontSize: '0.9rem', lineHeight: 1.5, overflowY: 'auto' }}>
-                {lane.content || <span style={{ color: 'var(--muted)' }}>En attente de l'invite...</span>}
+                {lane.content || <span style={{ color: 'var(--muted)' }}>{"En attente de l'invite..."}</span>}
               </div>
 
               <div style={{ fontSize: '0.75rem', color: 'var(--muted)', display: 'flex', flexDirection: 'column', gap: '0.2rem', borderTop: '1px solid var(--border-color)', paddingTop: '0.6rem' }}>
